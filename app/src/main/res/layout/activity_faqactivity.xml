@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ui.profil.FAQActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How I do locate a program that's right for me?"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search by degree level: Undergraduate Programs, Master's Degree Programs, Doctorate Degree Programs, Teacher Certification Programs, Other Certificate Programs, and Online Programs
+Search by department"
+        android:justificationMode="inter_word"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Besides teaching, what other program exist in the field of education?"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="There are many additional opportunities to make a difference in the field of education! We prepare our students to meet the demanding needs of a constantly changing society and to excel in a variety of roles, such as:
+school leaders, policy experts, academic administrators, physical activity programmers, health, fitness, and disease-prevention advocates, curriculum specialists, assessment designers, educational researchers, If you are interested in joining our esteemed community of learners, you can begin learning more about our variety of degree and certification options here."
+        android:justificationMode="inter_word"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="5dp"/>
+
+</LinearLayout>

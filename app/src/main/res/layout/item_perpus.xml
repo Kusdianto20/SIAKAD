@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="3dp"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp"
+    android:background="@drawable/bg_shape3"
+    android:paddingBottom="3dp">
+
+    <ImageView
+        android:id="@+id/iv_avatar_buku"
+        android:layout_width="100dp"
+        android:layout_height="130dp"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        android:src="@drawable/book_pergi"
+        app:riv_corner_radius="10dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_nama_buku"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:text="Habibi dan Ainun"
+        android:textStyle="bold"
+        android:ellipsize="end"
+        android:textSize="16sp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintVertical_bias="0.448"
+        app:layout_constraintBottom_toTopOf="@+id/tv_deskripsi_buku"
+        app:layout_constraintStart_toEndOf="@+id/iv_avatar_buku"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_deskripsi_buku"
+        android:layout_width="0dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="16dp"
+        android:text="Deskripsi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iv_avatar_buku"
+        app:layout_constraintTop_toBottomOf="@+id/tv_nama_buku"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:alpha="0.8"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ui.profil.DataDiriActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Profil Siswa"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/tv_nama_siswa_profil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/bg_shape3"
+                android:layout_marginBottom="5dp"
+                android:textSize="17sp"
+                android:text="Nama Siswa"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NIS"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/tv_nis_siswa_profil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bg_shape3"
+                android:textSize="17sp"
+                android:text="NIS Siswa"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NISN"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/tv_nisn_siswa_profil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bg_shape3"
+                android:textSize="17sp"
+                android:text="NISN Siswa"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jenis Kelamin"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/tv_jenis_kelamin_siswa_profil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bg_shape3"
+                android:textSize="17sp"
+                android:text="Jenis Kelamin Siswa"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tempat Tanggal Lahir"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/tv_ttl_siswa_profil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bg_shape3"
+                android:textSize="17sp"
+                android:text="Tempat Tanggal Lahir Siswa"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No. Telepon"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/tv_no_hp_siswa_profil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bg_shape3"
+                android:textSize="17sp"
+                android:text="No.HP Siswa"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/tv_email_siswa_profil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bg_shape3"
+                android:textSize="17sp"
+                android:text="Email Siswa"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Orang Tua"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/tv_nama_ortu_profil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/bg_shape3"
+                android:layout_marginBottom="5dp"
+                android:textSize="17sp"
+                android:text="Nama Ortu"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NIK"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/tv_nik_ortu_profil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bg_shape3"
+                android:textSize="17sp"
+                android:text="NIK Ortu"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No. Telepon"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/tv_no_hp_ortu_profil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bg_shape3"
+                android:textSize="17sp"
+                android:text="No.HP Ortu"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alamat"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/tv_alamat_ortu_profil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bg_shape3"
+                android:textSize="17sp"
+                android:text="Alamat Ortu"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pekerjaan"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/tv_pekerjaan_ortu_profil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bg_shape3"
+                android:textSize="17sp"
+                android:text="Pekerjaan Ortu"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

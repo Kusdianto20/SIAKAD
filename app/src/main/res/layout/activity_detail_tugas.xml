@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".ui.tugas.DetailTugasActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tugas"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Silahkan download file untuk melihat tugas"/>
+
+        <Button
+            android:id="@+id/btn_download_file"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="File Tugas"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_shape"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Kirim jawaban dengan nemtuk foto/gambar"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
+
+                <Button
+                    android:id="@+id/chooseBtn"
+                    android:layout_width="180dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg_shape"
+                    android:textColor="@color/white"
+                    android:text="Pilih gambar"/>
+
+                <Button
+                    android:id="@+id/camBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_gravity="end"
+                    android:background="@drawable/bg_shape"
+                    android:text="Ambil Foto" />
+
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView2"
+                android:layout_width="match_parent"
+                android:layout_height="360dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/imageAnalitics"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/todo"
+                    android:src="@drawable/ic_image_background" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/buttonProcess"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Kirim tugas"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_shape"
+                android:layout_marginBottom="60dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

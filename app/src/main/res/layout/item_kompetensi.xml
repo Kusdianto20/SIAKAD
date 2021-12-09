@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="3dp"
+    android:orientation="vertical"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp"
+    android:background="@drawable/bg_shape3"
+    android:paddingBottom="3dp">
+
+    <TextView
+        android:id="@+id/tv_nama_kompetensi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Microsoft Certified"
+        android:textStyle="bold"
+        android:ellipsize="end"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tv_deskripsi_kompetensi"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:text="Deskripsi"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:alpha="0.8"/>
+</LinearLayout>

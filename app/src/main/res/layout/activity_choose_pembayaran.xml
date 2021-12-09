@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ui.keuangan.ChoosePembayaranActivity">
+
+    <CheckBox
+        android:id="@+id/checkbox_dsp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:onClick="onCheckboxClicked"
+        android:text="DSP" />
+
+    <CheckBox
+        android:id="@+id/checkbox_spp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:onClick="onCheckboxClicked"
+        android:text="SPP" />
+
+    <CheckBox
+        android:id="@+id/checkbox_lainnya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:onClick="onCheckboxClicked"
+        android:text="Lainnya" />
+
+    <Button
+        android:id="@+id/btn_next_pembayaran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selanjutnya"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_shape2"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
